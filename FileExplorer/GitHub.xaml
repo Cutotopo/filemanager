@@ -1,0 +1,28 @@
+﻿<Window x:Class="FileExplorer.GitHub"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FileExplorer"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Title="GitHub" Height="600" Width="1200">
+    <Grid>
+        <Grid Height="20" VerticalAlignment="Top" Background="Gray" >
+            <StackPanel Orientation="Horizontal">
+                <Label Content="" Visibility="Hidden" Width="20" />
+                <Button FontFamily="Segoe MDL2 Assets" Content="&#xE72B;" Click="Indietro" FontSize="14" Height="20" VerticalAlignment="Top" Width="20" Foreground="White" Background="Transparent" BorderThickness="0"/>
+                <Button FontFamily="Segoe MDL2 Assets" Content="&#xE72A;" Click="Avanti" FontSize="14" Height="20" VerticalAlignment="Top" Width="20" Foreground="White" Background="Transparent" BorderThickness="0"/>
+                <Label Content="AAA" Visibility="Hidden" />
+                <Label Content="AAA" Visibility="Hidden" />
+                <Label Content="AAA" Visibility="Hidden" />
+                <Button Content="CHIUDI" Click="Chiudi" FontSize="10" Height="20" VerticalAlignment="Top" Width="90" Foreground="White" Background="Transparent" BorderThickness="0"/>
+            </StackPanel>
+            <Button FontFamily="Segoe MDL2 Assets" Content="&#xE72C;" Click="Aggiorna" FontSize="14" Foreground="White" Background="Transparent" BorderThickness="0" Margin="60,0,1120,0"/>
+        </Grid>
+        <WebBrowser x:Name="Browser" Margin="0,20,0,0" x:FieldModifier="public" Source="https://github.com/Cutotopo/filemanager" />
+
+
+    </Grid>
+</Window>
