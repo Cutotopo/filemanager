@@ -23,3 +23,5 @@ C:\Users\franc\source\repos\FileExplorer\FileExplorer\bin\Debug\netcoreapp3.1\Ne
 C:\Users\franc\source\repos\FileExplorer\FileExplorer\obj\Debug\netcoreapp3.1\FileExplorer.csproj.CopyComplete
 C:\Users\franc\source\repos\FileExplorer\FileExplorer\obj\Debug\netcoreapp3.1\GitHub.g.cs
 C:\Users\franc\source\repos\FileExplorer\FileExplorer\obj\Debug\netcoreapp3.1\GitHub.baml
+C:\Users\franc\source\repos\FileExplorer\FileExplorer\obj\Debug\netcoreapp3.1\Appinfo.g.cs
+C:\Users\franc\source\repos\FileExplorer\FileExplorer\obj\Debug\netcoreapp3.1\Appinfo.baml

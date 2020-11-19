@@ -104,5 +104,17 @@ namespace FileExplorer
         {
             System.Diagnostics.Process.Start(FrinowareCloudApp);
         }
+
+        private void newWindow(object sender, RoutedEventArgs e)
+        {
+            MainWindow window = new MainWindow();
+            window.Show();
+        }
+
+        private void AppInfo(object sender, RoutedEventArgs e)
+        {
+            Appinfo info = new Appinfo();
+            info.Show();
+        }
     }
 }

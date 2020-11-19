@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FileExplorer"
         mc:Ignorable="d"
-        Title="File explorer" Height="450" Width="800">
+        Title="Gestore File" Height="450" Width="800">
 
     <Grid>
         <Grid Height="20" VerticalAlignment="Top" Background="Gray">
@@ -53,10 +53,22 @@
                     <Label Content="FrancyINK" FontSize="10" VerticalAlignment="Center" Foreground="White" Height="26" />
                 </StackPanel>
             </Button>
+            <Button Click="newWindow" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,122,0,0" Width="167">
+                <StackPanel Orientation="Horizontal" Background="Transparent" Height="20" VerticalAlignment="Top">
+                    <Button FontFamily="Segoe MDL2 Assets" Content="&#xE710;" FontSize="18" Height="20" VerticalAlignment="Center" Foreground="White" Background="Transparent" HorizontalAlignment="Center" BorderThickness="0"/>
+                    <Label Content="Nuova finestra" FontSize="10" VerticalAlignment="Center" Foreground="White" Height="26" />
+                </StackPanel>
+            </Button>
             <Button Click="GitHubButton" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,122,0,0" Width="167">
                 <StackPanel Orientation="Horizontal" Background="Transparent" Height="20" VerticalAlignment="Top">
                     <Button FontFamily="Segoe MDL2 Assets" Content="&#xEF58;" FontSize="18" Height="20" VerticalAlignment="Center" Foreground="White" Background="Transparent" HorizontalAlignment="Center" BorderThickness="0"/>
                     <Label Content="Repository GitHub" FontSize="10" VerticalAlignment="Center" Foreground="White" Height="26" />
+                </StackPanel>
+            </Button>
+            <Button Click="AppInfo" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,146,0,0" Width="167">
+                <StackPanel Orientation="Horizontal" Background="Transparent" Height="20" VerticalAlignment="Top">
+                    <Button FontFamily="Segoe MDL2 Assets" Content="&#xE946;" FontSize="18" Height="20" VerticalAlignment="Center" Foreground="White" Background="Transparent" HorizontalAlignment="Center" BorderThickness="0"/>
+                    <Label Content="Informazioni" FontSize="10" VerticalAlignment="Center" Foreground="White" Height="26" />
                 </StackPanel>
             </Button>
         </Grid>
